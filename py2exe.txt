@@ -1,0 +1,20 @@
+We can also create an  executable file by following the steps :- 
+
+Step 1: Install PyInstaller
+Open a command prompt or terminal and run the following command to install PyInstaller:
+--> pip install pyinstaller
+
+Step 2: Navigate to your script’s directory
+Use the `cd` command to navigate to the directory where your Python script is located.
+>cd path\to\your\script
+
+Step 3: Run PyInstaller
+Run PyInstaller with the following command:
+--> python -m PyInstaller --onefile main.py
+Replace `your_script.py` with the name of your Python script.
+– The `–onefile` flag indicates that you want a single executable file instead of a bunch of files.
+
+Step 4: Locate the executable
+Once PyInstaller has finished, you will find a `dist` directory in your script’s directory.
+Inside the `dist` directory, you will see the standalone executable file with the same name as your script but with a `.exe` extension.
+
